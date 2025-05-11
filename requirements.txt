@@ -1,0 +1,11 @@
+# 依赖列表
+
+fastapi
+uvicorn
+sqlalchemy
+pymysql
+python-jose[cryptography]
+passlib[bcrypt]
+python-multipart
+
+
