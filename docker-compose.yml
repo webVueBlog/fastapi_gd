@@ -1,0 +1,12 @@
+version: "3.8"
+
+services:
+  fastapi:
+    build:
+      context: .
+    container_name: fastapi-app
+    ports:
+      - "8000:8000"
+    volumes:
+      - ./app:/app  # 热更新开发用，部署时可去掉
+    restart: always
